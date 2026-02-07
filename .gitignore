@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+rfdetr25/
+
+# ML / DL
+data/
+datasets/
+*.pt
+*.pth
+*.onnx
+runs/
+checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
