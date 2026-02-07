@@ -1,13 +1,25 @@
+# =====================
 # Python
+# =====================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .env
-venv/
-rfdetr25/
 
+# Virtual environments (CRITICAL)
+venv/
+env/
+.venv/
+rfdetr25/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# =====================
 # ML / DL
+# =====================
 data/
 datasets/
 *.pt
@@ -16,9 +28,13 @@ datasets/
 runs/
 checkpoints/
 
+# =====================
 # VS Code
+# =====================
 .vscode/
 
+# =====================
 # OS
+# =====================
 .DS_Store
 Thumbs.db
